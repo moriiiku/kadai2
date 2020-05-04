@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+
+   <% @books.each do |book| %>
+      <p>Title:</p>
+      <span><%= book.title %></span>
+      <p>Body:</p>
+      <span><%= book.body %></span>
+   <% end %>
